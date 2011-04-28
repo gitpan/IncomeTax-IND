@@ -1,4 +1,8 @@
 Revision history for IncomeTax-IND
 
+0.02    Thu Apr 28 12:53:29 2011
+        - Renamed method show_breakdown() to get_breakdown().
+        - Updated pod regarding above changes.
+
 0.01    Wed Apr 27 16:00:00 2011
         - First version, released.

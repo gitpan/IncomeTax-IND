@@ -14,11 +14,11 @@ IncomeTax::IND - Interface to Income Tax of India.
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 our $DEBUG   = 1;
 
 Readonly my $TAX_SLAB =>
@@ -129,9 +129,9 @@ sub get_income_tax
     return $self->{income_tax};
 }
 
-=head2 show_breakdown()
+=head2 get_breakdown()
 
-Print the tax calculation breakdown. You should ONLY be calling after method get_income_tax().
+Returns  tax  calculation breakdown. You should ONLY be calling after method get_income_tax().
 Otherwise if it would simply return nothing.
 
     use stric; use warnings;
@@ -139,19 +139,19 @@ Otherwise if it would simply return nothing.
     
     my $ind = IncomeTax::IND->new({ sex => 'm', age => 35, gross_income => 8_00_000});
     my $income_tax = $ind->get_income_tax();
-    $ind->show_breakdown();
+    print $ind->get_breakdown();
 
 =cut
 
-sub show_breakdown
+sub get_breakdown
 {
     my $self = shift;
-    print $self->as_string();
+    return $self->as_string();
 }
 
 =head2 as_string()
 
-Same as show_breakdown() except that it gets called when printing object in scalar context.
+Same as get_breakdown() except that it gets called when printing object in scalar context.
 
     use stric; use warnings;
     use IncomeTax::IND;
