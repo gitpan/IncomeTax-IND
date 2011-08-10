@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.66.
+signed via the Module::Signature module, version 0.68.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,14 +14,14 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 8e43ebb46454f88cc8f334c26027df311fb4b5a8 Build.PL
-SHA1 0bf32d2c56faa866b743c1527fa2587b860fe119 Changes
+SHA1 82755c1d0288f5b8b83b05f8a81890735be53fa3 Build.PL
+SHA1 04e4c1d276452203b8dac29973314aa922507d9d Changes
 SHA1 bcdf7869922d092c9682c18bbfdc6a6aa36f4aa6 MANIFEST
 SHA1 7d20e4e840781030202bb045d5ab81b3fd1b68b0 MANIFEST.SKIP
-SHA1 b47dcf38ad6f037381da5431267f9f82cb7c1e8f META.yml
-SHA1 eddcba58223257c12e5ea29045b82775189f885c Makefile.PL
+SHA1 45506bd0be09412f70f259762a87163fe74b067d META.yml
+SHA1 a52538a24c94acf9b6a85e67bd30ffa247870683 Makefile.PL
 SHA1 642b77b37b7eab58be903bc889a417941dc35f36 README
-SHA1 77620dc67e9992e12af5bc0c8c1ce08ea217cfac lib/IncomeTax/IND.pm
+SHA1 a9878480f2e1dcfd8120be6507a2acffd9068b42 lib/IncomeTax/IND.pm
 SHA1 9a0e7589fb40b02b06b3aa7008783bcb9b53355c t/00-load.t
 SHA1 a50272f0d90037a2b6f1c50d705f344b5b53ef81 t/01-unit-test.t
 SHA1 2b8ffb7e4f399af95d092743846ac8d438f2c53e t/manifest.t
@@ -29,11 +29,11 @@ SHA1 0765c9ff0cc4319f415bb08d0053b7717a8284a2 t/pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2.0.14 (MingW32)
 
-iQEcBAEBAgAGBQJNuVX6AAoJEPYcXBXhRYOhXnsIAJ4dL/7oYCKsE5rgQa4FCqpI
-SKtrNs5Bn/eMaDljOJfol9+ZwIVu9YEHb1WClf2+dynlf8nHEVlAtcjCTMRFraYP
-f3+H144v8GXMWCAexeA1XMroMZjLsUEXWL0o5agpZYJ1ERvQ0eeJXhB1qOkmfTNk
-p+2kvvBIuQ0oAVnMe9dkcK6oAFDRaxU6+Pp1Wk9iCpwwQHYHA9dcp+nTn2NHlDZa
-oDKE/vKg2ObKHXfSf8igWKVJoqTXzeiToyj3SDXyMp/kDblhEXHeFzm6BtpSV2Qe
-WqqE198NnkFBuQDzzypjEk1gC/DMmgsDaC/ndxNfR8yjDGwC/ZCLpOGedu1R5pg=
-=mnct
+iQEcBAEBAgAGBQJOQm7NAAoJEPYcXBXhRYOhBngH/A5eIKDOq83cku6O74eMr6Vu
+t8YYrP0eHB27zbtrTbY2y8Z3vZEMumuOmaOzBTJ8/pYxDry6Ctv5lDy+0Jm2PObk
+Kp6SO6CWHqy0je5MO0GG4CuDvLhuJScraG+Vn6qlOWGJ14eKdJWQov+ZY0JIy4bJ
+SEI7ezgGTJ5vsXyQsfV8dxBYak5rw3hlmfKbn2L5UzN4fjCTU6ohto1NlQm/yEpR
+FVnL3d7kyAsKAN3q4AX6g0yexwZCVaTwxaqqC9MmiyAJKYBLFvOvg548FzT1FgwS
+zKFzflmBT7lKVK9TTjqWPLb6kHZlJwbjW5/JGC8L6JhlbjVjYBd90LBf0pZDPkY=
+=g+gN
 -----END PGP SIGNATURE-----

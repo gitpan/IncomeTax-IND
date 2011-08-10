@@ -3,7 +3,7 @@ abstract: 'Interface to Income Tax of India.'
 author:
   - 'Mohammad S Anwar <mohammad.anwar@yahoo.com>'
 build_requires:
-  Readonly: 0
+  Readonly: 1.03
   Test::More: 0
 configure_requires:
   Module::Build: 0.36
@@ -16,7 +16,7 @@ name: IncomeTax-IND
 provides:
   IncomeTax::IND:
     file: lib/IncomeTax/IND.pm
-    version: 0.02
+    version: 0.03
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.02
+version: 0.03

@@ -14,11 +14,11 @@ IncomeTax::IND - Interface to Income Tax of India.
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 our $DEBUG   = 1;
 
 Readonly my $TAX_SLAB =>

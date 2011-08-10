@@ -1,5 +1,9 @@
 Revision history for IncomeTax-IND
 
+0.03    Wed Aug 10 12:42:11 2011
+        - Made Readonly v1.03 as minimum requirement.
+        - Prepared the distribution using the Module::Signature v0.68.
+
 0.02    Thu Apr 28 12:53:29 2011
         - Renamed method show_breakdown() to get_breakdown().
         - Updated pod regarding above changes.
